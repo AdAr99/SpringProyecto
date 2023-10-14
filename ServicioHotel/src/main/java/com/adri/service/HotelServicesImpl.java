@@ -7,6 +7,15 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author Adri
+ * @see com.adri.service.HotelServices
+ * @see com.adri.dao.HotelDao
+ *
+ * @lista() Mostramos todos los hotels de la base de datos
+ * @buscar() Mostramos la informacion de un Hotel obtenido por su nombre
+ */
+
 @Service
 public class HotelServicesImpl implements HotelServices {
 
